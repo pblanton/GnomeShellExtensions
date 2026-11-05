@@ -10,6 +10,14 @@ A collection of GNOME Shell extensions by Phillip Blanton ([blanton.us](https://
 
 Each extension's directory has its own `README.md` with features, settings and data sources.
 
+## Bullion Ticker
+A customizable GNOME Shell desktop widget that tracks gold, silver, platinum,
+palladium, stock indices and individual stocks. Each row shows the live price
+and the day's change (green up, red down). Click a row to drop a chart down
+below it: 1D, 3D, 1W, 1M or 1Y.
+
+![capture_2026-11-05_115303.png](bullion-ticker%40blanton.us/repo_files/capture_2026-11-05_115303.png)
+
 ## Installing an extension
 
 This repository holds several extensions, so don't clone it into your extensions directory. Clone it somewhere else, then copy the extension you want into `~/.local/share/gnome-shell/extensions/`.

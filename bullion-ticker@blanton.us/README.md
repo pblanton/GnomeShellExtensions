@@ -7,6 +7,8 @@ below it: 1D, 3D, 1W, 1M or 1Y.
 
 Supports GNOME Shell 45 through 50 (developed on 46 / Zorin OS).
 
+![capture_2026-11-05_115720.png](repo_files/capture_2026-11-05_115720.png)   ![capture_2026-11-05_115303.png](repo_files/capture_2026-11-05_115303.png)
+
 ## Features
 
 - Live price with the day's change, green when up and red when down
