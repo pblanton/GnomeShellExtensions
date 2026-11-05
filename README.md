@@ -12,9 +12,14 @@ Each extension's directory has its own `README.md` with features, settings and d
 
 ## Installing an extension
 
+This repository holds several extensions, so don't clone it into your extensions directory. Clone it somewhere else, then copy the extension you want into `~/.local/share/gnome-shell/extensions/`.
+
 Replace `UUID` with the extension's directory name (for example `bullion-ticker@blanton.us`):
 
-    git clone https://github.com/YOUR-USER/YOUR-REPO.git && D=~/.local/share/gnome-shell/extensions/UUID && mkdir -p "$D" && cp -r YOUR-REPO/UUID/* "$D" && glib-compile-schemas "$D/schemas"
+    git clone <this-repo-url> ~/src/GnomeShellExtensions
+    mkdir -p ~/.local/share/gnome-shell/extensions/UUID
+    cp -r ~/src/GnomeShellExtensions/UUID/* ~/.local/share/gnome-shell/extensions/UUID/
+    glib-compile-schemas ~/.local/share/gnome-shell/extensions/UUID/schemas
 
 Then reload the shell and enable it:
 
