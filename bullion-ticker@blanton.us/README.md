@@ -24,13 +24,14 @@ Supports GNOME Shell 45 through 50 (developed on 46 / Zorin OS).
 
 ## Install
 
-Clone the repo and link it into your extensions folder:
+This repository holds several extensions, so don't clone it into your extensions directory. Clone it somewhere else, then copy the extension you want into `~/.local/share/gnome-shell/extensions/`.
 
-    git clone https://github.com/YOUR-USER/bullion-ticker.git && D=~/.local/share/gnome-shell/extensions/bullion-ticker@blanton.us && mkdir -p "$D" && cp -r bullion-ticker/{extension.js,prefs.js,chart.js,yahoo.js,providers.js,history.js,twelvedata.js,metadata.json,stylesheet.css,schemas} "$D" && glib-compile-schemas "$D/schemas"
+Replace `UUID` with the extension's directory name (for example `bullion-ticker@blanton.us`):
 
-Or from a release zip:
-
-    D=~/.local/share/gnome-shell/extensions/bullion-ticker@blanton.us && mkdir -p "$D" && unzip -o bullion-ticker@blanton.us.zip -d "$D" && glib-compile-schemas "$D/schemas"
+    git clone <this-repo-url> ~/src/GnomeShellExtensions
+    mkdir -p ~/.local/share/gnome-shell/extensions/UUID
+    cp -r ~/src/GnomeShellExtensions/UUID/* ~/.local/share/gnome-shell/extensions/UUID/
+    glib-compile-schemas ~/.local/share/gnome-shell/extensions/UUID/schemas
 
 Then reload the shell so it notices the extension and enable it:
 
