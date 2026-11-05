@@ -1,0 +1,8 @@
+{
+  "uuid": "bullion-ticker@blanton.us",
+  "name": "Bullion Ticker",
+  "description": "A customizable desktop widget that tracks gold, silver, platinum, palladium, indices and stocks. Shows the live price with the day's change in green or red, and expands to a chart (1D, 3D, 1W, 1M, 1Y). Add or remove trackers and restyle colors, size and font in preferences.\n\nPrice data comes from Yahoo Finance's public chart endpoint; no account or API key is needed.",
+  "shell-version": ["45", "46", "47", "48", "49", "50"],
+  "settings-schema": "org.gnome.shell.extensions.bullion-ticker",
+  "version-name": "0.3.2"
+}

@@ -1,0 +1,20 @@
+/* Static hover affordances only; every color and size the user can change is applied inline. */
+.bullion-btn {
+    padding: 2px 8px;
+    border-radius: 6px;
+}
+
+.bullion-btn:hover,
+.bullion-btn:focus {
+    background-color: rgba(255, 255, 255, 0.12);
+}
+
+.bullion-row {
+    border-radius: 8px;
+    padding: 6px 4px;
+}
+
+.bullion-row:hover,
+.bullion-row:focus {
+    background-color: rgba(255, 255, 255, 0.06);
+}

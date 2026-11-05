@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schemalist>
+  <schema id="org.gnome.shell.extensions.bullion-ticker" path="/org/gnome/shell/extensions/bullion-ticker/">
+
+    <key name="trackers" type="s">
+      <default>'[{"label":"Gold","symbol":"XAUUSD=X","prefix":"$","decimals":2},{"label":"Silver","symbol":"XAGUSD=X","prefix":"$","decimals":3}]'</default>
+      <summary>Tracked symbols</summary>
+      <description>JSON list of trackers. Each has a label, a Yahoo Finance symbol, a currency prefix and a number of decimals.</description>
+    </key>
+
+    <key name="refresh-minutes" type="i">
+      <range min="1" max="60"/>
+      <default>15</default>
+      <summary>Refresh interval in minutes</summary>
+    </key>
+    <key name="twelvedata-key" type="s">
+      <default>''</default>
+      <summary>Twelve Data API key (optional)</summary>
+      <description>Free key from twelvedata.com. Used for gold and US stocks/ETFs when Yahoo Finance refuses requests. Stored unencrypted in dconf.</description>
+    </key>
+    <key name="default-range" type="s">
+      <choices>
+        <choice value="1D"/>
+        <choice value="3D"/>
+        <choice value="1W"/>
+        <choice value="1M"/>
+        <choice value="1Y"/>
+      </choices>
+      <default>'1D'</default>
+      <summary>Default chart range</summary>
+    </key>
+    <key name="layer" type="s">
+      <choices>
+        <choice value="desktop"/>
+        <choice value="above"/>
+      </choices>
+      <default>'desktop'</default>
+      <summary>Widget layer</summary>
+      <description>desktop: sits on the desktop behind windows. above: floats above windows.</description>
+    </key>
+    <key name="locked" type="b">
+      <default>false</default>
+      <summary>Lock position</summary>
+    </key>
+    <key name="pos-x" type="i">
+      <default>-1</default>
+      <summary>Widget X position (-1 = automatic)</summary>
+    </key>
+    <key name="pos-y" type="i">
+      <default>-1</default>
+      <summary>Widget Y position (-1 = automatic)</summary>
+    </key>
+    <key name="expanded" type="as">
+      <default>[]</default>
+      <summary>Symbols whose chart is expanded</summary>
+    </key>
+    <key name="show-symbol" type="b">
+      <default>true</default>
+      <summary>Show the symbol under each name</summary>
+    </key>
+
+    <key name="width" type="i">
+      <range min="240" max="700"/>
+      <default>360</default>
+      <summary>Widget width in pixels</summary>
+    </key>
+    <key name="font-size" type="i">
+      <range min="9" max="28"/>
+      <default>14</default>
+      <summary>Base font size in pixels</summary>
+    </key>
+    <key name="font-family" type="s">
+      <default>''</default>
+      <summary>Font family (empty = system default)</summary>
+    </key>
+    <key name="chart-height" type="i">
+      <range min="80" max="400"/>
+      <default>150</default>
+      <summary>Chart height in pixels</summary>
+    </key>
+    <key name="corner-radius" type="i">
+      <range min="0" max="40"/>
+      <default>16</default>
+      <summary>Corner radius in pixels</summary>
+    </key>
+
+    <key name="bg-color" type="s">
+      <default>'rgba(24,24,32,0.82)'</default>
+      <summary>Background color</summary>
+    </key>
+    <key name="text-color" type="s">
+      <default>'rgb(240,240,245)'</default>
+      <summary>Text color</summary>
+    </key>
+    <key name="muted-color" type="s">
+      <default>'rgba(240,240,245,0.55)'</default>
+      <summary>Secondary text color</summary>
+    </key>
+    <key name="up-color" type="s">
+      <default>'rgb(52,211,110)'</default>
+      <summary>Color for a price that is up on the day</summary>
+    </key>
+    <key name="down-color" type="s">
+      <default>'rgb(255,92,92)'</default>
+      <summary>Color for a price that is down on the day</summary>
+    </key>
+    <key name="accent-color" type="s">
+      <default>'rgb(212,175,55)'</default>
+      <summary>Accent color (selected range button)</summary>
+    </key>
+    <key name="line-color" type="s">
+      <default>'rgb(212,175,55)'</default>
+      <summary>Chart line color when not following the day's direction</summary>
+    </key>
+    <key name="chart-trend-color" type="b">
+      <default>true</default>
+      <summary>Color the chart line green or red by the day's direction</summary>
+    </key>
+
+  </schema>
+</schemalist>
