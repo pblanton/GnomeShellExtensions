@@ -1,3 +1,6 @@
+// SPDX-License-Identifier: GPL-2.0-or-later
+// Copyright (C) 2026 Phillip Blanton
+
 // Pure data helpers for the Yahoo Finance chart endpoint.
 // No GNOME imports here, so this file can be unit-tested with plain Node.
 

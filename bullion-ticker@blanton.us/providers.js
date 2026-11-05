@@ -1,3 +1,6 @@
+// SPDX-License-Identifier: GPL-2.0-or-later
+// Copyright (C) 2026 Phillip Blanton
+
 // Fallback provider: gold-api.com (keyless, live spot price for four metals).
 // No GNOME imports, so it can be unit-tested with plain Node.
 

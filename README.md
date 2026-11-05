@@ -52,4 +52,4 @@ Create a new directory named with the extension's UUID (`name@domain`), add the 
 
 ## License
 
-TBD. Extensions published to extensions.gnome.org must use a GPL-compatible license (GPL-2.0-or-later is the usual choice).
+Licensed under the [GNU General Public License v2.0 or later](LICENSE) (SPDX: `GPL-2.0-or-later`). Each extension directory carries its own copy of the license so it can be packaged on its own.

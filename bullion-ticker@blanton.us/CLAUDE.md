@@ -43,7 +43,7 @@ v0.3.2 added the Twelve Data 429 cool-down and retry, only-stale refresh, a ⚠ 
 3. The Dow index value is unavailable from free providers (the DIA ETF preset is the stand-in).
 4. Desktop layer is blocked by Zorin's icons window. Options: insert above that window, or disable the Zorin icons extension.
 5. The cause of the Yahoo 429 is unconfirmed (a phone-hotspot curl test was never reported).
-6. Pick a license (GPL-2.0-or-later compatible) and prep for extensions.gnome.org review: trim `shell-version` to versions actually tested, review Yahoo's terms, disclose the private `_backgroundGroup` use.
+6. License is GPL-2.0-or-later (done). Prep for extensions.gnome.org review: trim `shell-version` to versions actually tested, review Yahoo's terms, disclose the private `_backgroundGroup` use.
 7. Never commit API keys. Phillip pasted a Twelve Data key into an earlier chat and should regenerate it.
 
 ## Working preferences

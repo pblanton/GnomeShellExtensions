@@ -1,3 +1,6 @@
+// SPDX-License-Identifier: GPL-2.0-or-later
+// Copyright (C) 2026 Phillip Blanton
+
 import Cairo from 'gi://cairo';
 import Clutter from 'gi://Clutter';
 import Gio from 'gi://Gio';

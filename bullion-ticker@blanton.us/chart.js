@@ -1,3 +1,6 @@
+// SPDX-License-Identifier: GPL-2.0-or-later
+// Copyright (C) 2026 Phillip Blanton
+
 // Cairo chart renderer. No GNOME imports: the cairo namespace and the time
 // formatter are passed in, so the drawing logic can be exercised under Node.
 

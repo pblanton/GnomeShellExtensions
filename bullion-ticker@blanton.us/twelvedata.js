@@ -1,3 +1,6 @@
+// SPDX-License-Identifier: GPL-2.0-or-later
+// Copyright (C) 2026 Phillip Blanton
+
 // Twelve Data provider helpers (free key: gold XAU/USD and US stocks/ETFs).
 // No GNOME imports, so this file can be unit-tested with plain Node.
 

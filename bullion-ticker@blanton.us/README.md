@@ -133,9 +133,8 @@ Testing a change: on X11 use Alt+F2, `r`; on Wayland you must log out and in.
 - Before publishing to extensions.gnome.org: trim `shell-version` to versions
   actually tested, review Yahoo's terms for a distributed extension, mention
   the private `Main.layoutManager._backgroundGroup` use in review notes,
-  choose a GPL-2.0-or-later compatible license, and upload the zip without
-  `gschemas.compiled`
+  and upload the zip without `gschemas.compiled`
 
 ## License
 
-TBD (extensions.gnome.org requires a GPL-compatible license).
+GPL-2.0-or-later. See [LICENSE](LICENSE).

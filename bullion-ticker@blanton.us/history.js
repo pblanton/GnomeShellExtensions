@@ -1,3 +1,6 @@
+// SPDX-License-Identifier: GPL-2.0-or-later
+// Copyright (C) 2026 Phillip Blanton
+
 // Local price recorder used when the data source has no history of its own.
 // A store is a plain object: {CODE: [[unixSeconds, price], ...]} sorted ascending.
 // No GNOME imports, so it can be unit-tested with plain Node.

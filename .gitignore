@@ -1,0 +1,19 @@
+# Compiled GSettings schemas (build with glib-compile-schemas)
+gschemas.compiled
+
+# Packaged extensions (gnome-extensions pack)
+*.zip
+*.shell-extension.zip
+
+# IDE / editor
+.idea/
+.vscode/
+*.swp
+*~
+
+# Node (unit-testing helpers)
+node_modules/
+
+# OS
+.DS_Store
+Thumbs.db
