@@ -50,4 +50,4 @@ v0.3.2 added the Twelve Data 429 cool-down and retry, only-stale refresh, a ⚠ 
 
 - Phillip is Linux-only: never suggest Windows or Microsoft products.
 - Chain shell commands with `&&`.
-- Documents, if any are needed, go in ODF formats, not Microsoft formats.
+- Documents, if any are needed, default to `.md` format. `.ODF` formats are acceptable but not Microsoft formats of any kind. Fuck Microsoft.
